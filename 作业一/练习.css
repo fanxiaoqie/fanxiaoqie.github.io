@@ -1,0 +1,427 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+li{
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+.header{
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #eee;
+	overflow: hidden;
+}
+.header .logo{
+	float: left;
+	width: 220px;
+	height: 20px;
+	margin-top: 42px;
+	margin-left: 22px;
+}
+.header form{
+	float: right;
+	margin-top: 39px;
+	margin-right: 22px;
+}
+.header .search{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 28px;
+}
+.header button{
+	float: left;
+	display: block;
+	width: 40px;
+	height: 28px;
+}
+.nav{
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto;
+}
+.nav ul a{
+	display: block;
+	float: left;
+	width: 125px;
+	height: 60px;
+	color: white;
+	font-size: 12px;
+	background-color: #313131;
+	text-align: center;
+	line-height: 60px;
+}
+.banner{
+	width: 1000px;
+	height: 470px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.banner .boyikeji{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.banner p{
+	font-size: 40px;
+	color: #0a3b7e;
+	position: absolute;
+	top: 155px;
+	left: 340px;
+}
+.banner button{
+	display: block;
+	width: 200px;
+	height: 48px;
+	color: white;
+	font-size: 25px;
+	border-radius: 10px;
+	background-color: #0a3b7e;
+	position: relative;
+	top: 228px;
+	left: 399px;
+	border: none;
+}
+.banner .zuoanniu{
+	position: absolute;
+	top: 198px;
+}
+.banner .youanniu{
+	position: absolute;
+	top: 198px;
+	right: 0px;
+}
+.container{
+	width: 1000px;
+	height: 540px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.container .boyinews{
+	float: left;
+	width: 500px;
+	height: 240px;
+}
+.container .boyinews p a{
+	display: block;
+	font-size: 17px;
+	color: #3f3f3f;
+	margin: 36px 0px 30px 22px;
+}
+.container .boyinews li{
+	margin-bottom: 12px;
+	margin-left: 22px;
+}
+.container .boyinews li a{
+	font-size: 13px;
+	color: #5b5b5b;
+}
+.container .boyinews span{
+	float: right;
+	font-size: 13px;
+	color: #5b5b5b;
+	margin-right: 27px;
+}
+.container .summary{
+	float: left;
+	width: 240px;
+	height: 240px;
+	background-color: #f1f1f1;
+}
+.container .summary .summary1{
+	font-size: 17px;
+	color: #3f3f3f;
+	margin: 36px 0px 42px 22px;
+}
+.container .summary .summary2{
+	font-size: 15px;
+	color: #5a5a5a;
+	margin: 0px 0px 22px 22px;
+}
+.container .summary .summary3,.container .summary .summary4{
+	font-size: 13px;
+	color: #969696;
+	margin: 0px 0px 11px 22px;
+}
+.container .management{
+	float: left;
+	width: 260px;
+	height: 240px;
+	position: relative;
+}
+.container .management .management1 a{
+	display: block;
+	font-size: 17px;
+	color: #3f3f3f;
+	margin: 36px 0px 29px 22px;
+}
+.container .management .management2{
+	font-size: 13px;
+	color: #969696;
+	margin: 0px 0px 13px 22px;
+}
+.container .management .anniu{
+	display: block;
+	margin-top: 35px;
+	margin-left: 22px;
+	width: 66px;
+	height: 20px;
+	font-size: 10px;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+	border-radius: 5px;
+	background-color: #aeaeae;
+}
+.container .management .huapen{
+	position: absolute;
+	top: 130px;
+	left: 150px;
+}
+.container .boyiluntan{
+	width: 1000px;
+	height: 300px;
+	overflow: hidden;
+}
+.container .biaoti{
+	display: block;
+	font-size: 17px;
+	color: #3f3f3f;
+	margin: 24px 0px 0px 22px;
+}
+.container .boyiluntan .luntan1{
+	width: 230px;
+	margin-top: 17px;
+	margin-left: 20px;
+	float: left;
+}
+.container .boyiluntan .luntan1 .duanluo .duanluo1{
+	margin-top: 20px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan1 .duanluo .duanluo2{
+	margin-top: 12px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan2{
+	width: 230px;
+	margin-top: 17px;
+	margin-left: 20px;
+	float: left;
+}
+.container .boyiluntan .luntan2 .duanluo .duanluo1{
+	margin-top: 20px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan2 .duanluo .duanluo2{
+	margin-top: 12px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan3{
+	width: 230px;
+	margin-top: 17px;
+	margin-left: 20px;
+	float: left;
+}
+.container .boyiluntan .luntan3 .duanluo .duanluo1{
+	margin-top: 20px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan3 .duanluo .duanluo2{
+	margin-top: 12px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan4{
+	width: 230px;
+	margin-top: 17px;
+	margin-left: 20px;
+	float: left;
+}
+.container .boyiluntan .luntan4 .duanluo .duanluo1{
+	margin-top: 20px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.container .boyiluntan .luntan4 .duanluo .duanluo2{
+	margin-top: 12px;
+	margin-left: 2px;
+	font-size: 12px;
+	color: #5b5b5b;
+	display: block;
+}
+.footer{
+	width: 1000px;
+	height: 380px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.footer .situation{
+	width: 1000px;
+	height: 300px;
+	background-color: #e5e5e5;
+}
+.footer .situation a{
+	display: block;
+	font-size: 12px;
+	color: #8f8f8f;
+}
+.footer .situation span{
+	font-size: 12px;
+	color: #8f8f8f;
+}
+.footer .situation .knowledge{
+	width: 454px;
+	float: left;
+	margin-top: 29px;
+	margin-left:  20px;
+}
+.footer .situation .knowledge p{
+	margin-left: 12px;
+}
+.footer .situation .knowledge hr{
+	width: 454px;
+	margin-top: 12px;
+}
+.footer .situation .knowledge .knowledge1 ul{
+	float: left;
+}
+.footer .situation .knowledge .knowledge1 ul a{
+	display: block;
+	width: 130px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.footer .situation .knowledge .knowledge2 ul{
+	float: left;
+}
+.footer .situation .knowledge .knowledge2 ul a{
+	display: block;
+	width: 180px;
+	margin-top: 15px;
+}
+.footer .situation .knowledge .knowledge3 ul{
+	float: left;
+}
+.footer .situation .knowledge .knowledge3 ul a{
+	display: block;
+	width: 130px ;
+	margin-top: 15px;
+}
+.footer .situation .stage{
+	width: 153px;
+	float: left;
+	margin-top: 29px;
+	margin-left: 50px;
+}
+.footer .situation .stage p{
+	margin-left: 12px;
+}
+.footer .situation .stage hr{
+	width: 153px;
+	margin-top: 12px;
+}
+.footer .situation .stage ul a{
+	display: block;
+	width: 150px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.footer .situation .spread{
+	width: 273px;
+	float: left;
+	margin-top: 29px;
+	margin-left: 50px;
+}
+.footer .situation .spread p{
+	margin-left: 12px;
+}
+.footer .situation .spread hr{
+	width: 256px;
+	margin-top: 12px;
+}
+.footer .situation .spread img{
+	margin-top: 15px;
+	margin-left: 33px;
+}
+.footer .remark{
+	width: 1000px;
+	height: 80px;
+	overflow: hidden;
+}
+.footer .remark .remark1{
+	float: left;
+	width: 320px;
+	margin-top: 25px                ;
+	margin-left: 16px;
+}
+.footer .remark .remark1 a{
+	display: block;
+	float: left;
+	width: 80px;
+	height: 20px;
+	font-size: 10px;
+	color: #838383;
+	text-align: center;
+	line-height: 20px;
+	border-right: 1px solid #838383;
+}
+.footer .remark .remark1 .baomingxitong{
+	border-right: none;
+}
+.footer .remark .remark2{
+	float: left;
+	margin-top: 28px;
+	margin-left: ;
+}
+.footer .remark .remark2 p{
+	font-size: 10px;
+	color: #838383;
+	margin-left: 50px;
+}
+.footer .remark .remark3{
+	float: left;
+	margin-top: 25px;
+	margin-left: ;
+}
+.footer .remark .remark3 p{
+	font-size: 10px;
+	color: #838383;
+	float: left;
+	margin-left: 95px;
+}
+.footer .remark .remark3 img{
+	float: left;
+	margin-left: 5px;
+}
